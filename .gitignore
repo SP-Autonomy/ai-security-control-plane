@@ -1,0 +1,114 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+control_plane.db
+security_events.db
+
+# Logs
+*.log
+logs/
+traces/
+audit_logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# ChromaDB
+chroma_db/
+.chroma/
+chroma/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# OPA
+*.rego.wasm
+
+# Streamlit
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Sensitive Data (IMPORTANT for security project)
+keys/
+secrets/
+credentials/
+*.key
+*.pem
+*.cert
+api_keys.txt
+
+# Test outputs
+test_results/
+evaluation_results/
+*.test.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+control_plane.db
+
+*Zone.Identifier

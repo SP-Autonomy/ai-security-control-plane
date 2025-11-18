@@ -1,0 +1,1 @@
+Our demo platform includes: DLP redaction, prompt injection screening, OPA policy-gates, and provenance tags for RAG answers.

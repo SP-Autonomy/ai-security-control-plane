@@ -1,0 +1,1 @@
+Agent safety practices: maintain tool allowlists, set per-tool budgets, validate schemas, and prefer least-privilege credentials.

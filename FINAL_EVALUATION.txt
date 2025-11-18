@@ -1,0 +1,57 @@
+======================================================================
+AI SECURITY CONTROL PLANE - EVALUATION REPORT
+======================================================================
+Generated: 2025-11-17T09:50:19.651058
+Gateway: http://localhost:8001
+API: http://localhost:8000
+======================================================================
+SUITE: JAILBREAK
+======================================================================
+Mode: compare
+WITH POLICIES:
+  Tests: 10
+  Passed: 5
+  Pass Rate: 50.0%
+WITHOUT POLICIES:
+  Tests: 10
+  Passed: 5
+  Pass Rate: 50.0%
+DELTA (Improvement with Policies):
+  Pass Rate: +0.0%
+  Additional Passed: +0
+  Effectiveness: Low
+======================================================================
+SUITE: EXFILTRATION
+======================================================================
+Mode: compare
+WITH POLICIES:
+  Tests: 10
+  Passed: 9
+  Pass Rate: 90.0%
+WITHOUT POLICIES:
+  Tests: 10
+  Passed: 4
+  Pass Rate: 40.0%
+DELTA (Improvement with Policies):
+  Pass Rate: +50.0%
+  Additional Passed: +5
+  Effectiveness: High
+  PII Instances Blocked: 0
+======================================================================
+SUITE: DRIFT
+======================================================================
+Mode: consistency analysis
+Tests Executed: 8
+Tests Passed: 4
+Pass Rate: 50.0%
+Average Similarity: 0.457
+Status: STABLE
+Note: Similarity 0.457 indicates healthy response variation
+======================================================================
+OVERALL SUMMARY
+======================================================================
+Total Tests Executed: 28
+Total Tests Passed: 18
+Overall Pass Rate: 64.3%
+Overall Status: ✗ FAIL
+======================================================================

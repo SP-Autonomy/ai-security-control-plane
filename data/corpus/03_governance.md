@@ -1,0 +1,1 @@
+Governance guidance: separate policy from prompts, version policies, record evidence (scrubbed logs), and export OpenTelemetry traces.

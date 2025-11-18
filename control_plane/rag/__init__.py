@@ -1,0 +1,35 @@
+"""
+Secure RAG (Retrieval-Augmented Generation) Module
+
+Provides secure document ingestion, storage, and retrieval with:
+- Source allowlist enforcement
+- Injection detection
+- Content validation
+- Provenance tracking
+"""
+
+from control_plane.rag.ingestion import SecureDocumentIngestion
+from control_plane.rag.retrieval import SecureRAGRetrieval
+from control_plane.rag.vectordb import ChromaDBManager
+from control_plane.rag.validation import (
+    validate_source,
+    detect_injection_in_content,  # Fixed: was 'detect_injection'
+    check_content_safety,
+    check_retrieved_context,
+    sanitize_html,
+    ALLOWED_SOURCES
+)
+
+__version__ = "1.0.0"
+
+__all__ = [
+    "SecureDocumentIngestion",
+    "SecureRAGRetrieval",
+    "ChromaDBManager",
+    "validate_source",
+    "detect_injection_in_content",
+    "check_content_safety",
+    "check_retrieved_context",
+    "sanitize_html",
+    "ALLOWED_SOURCES"
+]
